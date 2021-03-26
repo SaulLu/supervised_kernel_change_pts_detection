@@ -103,7 +103,7 @@ class KernelWithPartialAnnotationCost(rpt.base.BaseCost):
 
     @staticmethod
     def get_training_samples_and_constains(signals, labels):
-        """[summary]
+        """Derives training samples and constrains dictionnary from labels list.
 
         Args:
             signals (List[array]): signals on which the metric is learned. List of len n_signals of
